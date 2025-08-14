@@ -30,7 +30,9 @@ COMPONENTS REQUIRED:
  
  signal from the nano microcontroller to the motor driver based on the sensor input.A 12 V Lipo battery is used to supply the power to arduino via a DC-DC
 
- buck converter and to supply 12v to the motor.
+ buck converter and to supply 12v to the motor.To control the bot effectively we have used PID algorithm which works on moving the bot in the right direction by 
+
+ calculating the present,past and future errors.
 
 
  
@@ -38,6 +40,3 @@ COMPONENTS REQUIRED:
 
  
 
-
-If it’s slow to correct → increase P.
-If it always drifts off in the same direction → add some I.
